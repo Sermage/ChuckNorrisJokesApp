@@ -33,6 +33,7 @@ class JokesFragment : Fragment() {
         })
         buttonReload.setOnClickListener {
             viewModel.loadData(editTextNumberOfJokes.text.toString().toInt())
+            editTextNumberOfJokes.setText("")
         }
         return rootView
     }

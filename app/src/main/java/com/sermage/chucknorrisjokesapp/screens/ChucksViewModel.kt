@@ -1,12 +1,9 @@
 package com.sermage.chucknorrisjokesapp.screens
 
 import android.app.Application
-import android.util.Log
-import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
 import com.sermage.chucknorrisjokesapp.api.ApiFactory
 import com.sermage.chucknorrisjokesapp.data.AppDatabase
-import com.sermage.chucknorrisjokesapp.pojo.Joke
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 

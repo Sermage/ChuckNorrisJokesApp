@@ -3,14 +3,15 @@ package com.sermage.chucknorrisjokesapp.adapters
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.sermage.chucknorrisjokesapp.R
 import com.sermage.chucknorrisjokesapp.pojo.Joke
 import kotlinx.android.synthetic.main.joke_item.view.*
 
 class JokesAdapter : RecyclerView.Adapter<JokesAdapter.JokeViewHolder>() {
-    inner class JokeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val textViewJoke=itemView.textViewJoke
+     class JokeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val textViewJoke:TextView=itemView.textViewJoke
     }
 
     var listOfJokes= listOf<Joke>()
