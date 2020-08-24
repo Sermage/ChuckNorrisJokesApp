@@ -7,13 +7,13 @@
 
     <fragment
         android:id="@+id/navigation_jokes"
-        android:name="com.sermage.chucknorrisjokesapp.screens.ui.jokes.JokesFragment"
+        android:name="com.sermage.chucknorrisjokesapp.screens.JokesFragment"
         android:label="Jokes"
         tools:layout="@layout/fragment_jokes" />
 
     <fragment
         android:id="@+id/navigation_web"
-        android:name="com.sermage.chucknorrisjokesapp.screens.ui.web.WebFragment"
+        android:name="com.sermage.chucknorrisjokesapp.screens.WebFragment"
         android:label="Api info"
         tools:layout="@layout/fragment_web" />
 

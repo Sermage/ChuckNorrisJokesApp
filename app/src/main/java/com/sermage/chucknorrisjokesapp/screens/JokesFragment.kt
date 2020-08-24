@@ -1,4 +1,4 @@
-package com.sermage.chucknorrisjokesapp.screens.ui.jokes
+package com.sermage.chucknorrisjokesapp.screens
 
 import android.os.Bundle
 import android.view.LayoutInflater
